@@ -1,0 +1,128 @@
+[
+    {
+        "name": "Espreso",
+        "hot" : "55",
+        "iced" : "60",
+        "frappe": "65",
+        "type" : "Coffee"
+    },
+    {
+        "name": "Americano",
+        "hot" : "45",
+        "iced" : "50",
+        "frappe": "-",
+        "type" : "Coffee"
+    },
+    {
+        "name": "Cappucccino",
+        "hot" : "55",
+        "iced" : "60",
+        "frappe": "65",
+        "type" : "Coffee"
+    },
+    {
+        "name": "Cafe' Latte",
+        "hot" : "55",
+        "iced" : "60",
+        "frappe": "65",
+        "type" : "Coffee"
+    },
+    {
+        "name": "Mocha Latte",
+        "hot" : "65",
+        "iced" : "70",
+        "frappe": "75",
+        "type" : "Coffee"
+    },
+    {
+        "name": "Chocolate Milk",
+        "hot" : "50",
+        "iced" : "55",
+        "frappe": "60",
+        "type" : "Non Coffee"
+    },
+    {
+        "name": "Caramel Milk",
+        "hot" : "50",
+        "iced" : "55",
+        "frappe": "60",
+        "type" : "Non Coffee"
+    },
+    {
+        "name": "Matcha Latte",
+        "hot" : "60",
+        "iced" : "65",
+        "frappe": "70",
+        "type" : "Non Coffee"
+    },
+    {
+        "name": "Thai milk Tea",
+        "hot" : "45",
+        "iced" : "50",
+        "frappe": "60",
+        "type" : "Non Coffee"
+    },
+    {
+        "name": "Thai Black Tea",
+        "hot" : "45",
+        "iced" : "50",
+        "frappe": "-",
+        "type" : "Non Coffee"
+    },
+    {
+        "name": "Thai Lemon Tea",
+        "hot" : "45",
+        "iced" : "50",
+        "frappe": "-",
+        "type" : "Non Coffee"
+    },
+    {
+        "name": "Americano",
+        "hot" : "50",
+        "iced" : "55",
+        "frappe": "-",
+        "type" : "Soda"
+    },
+    {
+        "name": "Black Tea Peach",
+        "hot" : "50",
+        "iced" : "55",
+        "frappe": "-",
+        "type" : "Soda"
+    },
+    {
+        "name": "Black Tea Lemon",
+        "hot" : "50",
+        "iced" : "55",
+        "frappe": "-",
+        "type" : "Soda"
+    },
+    {
+        "name": "Strawberry",
+        "hot" : 45,
+        "iced" : 50,
+        "frappe": "-",
+        "type" : "Soda"
+    },
+    {
+        "name": "Apple",
+        "hot" : 45,
+        "iced" : 50,
+        "frappe": "-",
+        "type" : "Soda"
+    },
+    {
+        "name": "Lychee",
+        "hot" : 45,
+        "iced" : 50,
+        "frappe": "-",
+        "type" : "Soda"
+    },
+    {
+        "name": "Plum Juice",
+        "hot" : 45,
+        "iced" : 50,
+        "frappe": "-",
+        "type" : "Soda"
+    }
+]

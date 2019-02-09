@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cafe'</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <section class="section">
+        <div class="container"></div>
+        <div>
+            <nav class="navbar navbar-light fixed-top" style="background-color: #e7e6dc;">
+                        <label class="navbar-brand" style="color: #85837b">Coffee</label>
+                        <div class="form-inline" align="right">
+                                <input id="input-text" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="border-color: #85837b;">
+                                <button id="search-btn" class="btn btn-outline-dark my-2 my-sm-0" type="submit" style="border-color: #85837b; color: #85837b;"> Search </button>
+                        </div>
+            </nav>
+        </div>
+        <div align="center">
+            <img class="image" src="Untitled-1.gif" alt="Flowers in Chania">
+        </div>
+        <div>
+            <button id="advance-btn" type="button" class="btn btn-secondary btn-sm">Advance Search</button>
+            <a id="advance-search">
+                <select id="select-type" name="Type" class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <option value="Coffee">Coffee</option>
+                    <option value="Non Coffee">Non Coffee</option>
+                    <option value="Soda">Soda</option>
+                </select>
+                <select id="select-price" name="Price" class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <option value="45">45</option>
+                    <option value="50">50</option>
+                    <option value="55">55</option>
+                    <option value="60">60</option>
+                    <option value="65">65</option>
+                    <option value="70">70</option>
+                    <option value="75">75</option>
+                </select>
+                <button id="advanceSearch-btn" type="button" class="btn btn-secondary btn-sm">Search</button>
+            </a>
+            
+        </div>
+        <div>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Hot</th>
+                    <th>Iced</th>
+                    <th>Frappe</th>
+                    <th>Type</th>
+                </tr>
+                </thead>
+                <tbody id="table"></tbody>
+            </table>
+        </div>  
+    </section>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

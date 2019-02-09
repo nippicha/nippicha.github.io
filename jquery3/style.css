@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+.table th{
+    padding: .3rem;
+    background-color: #e7e6dc;
+    color: #85837b;
+    font-family: 'Dosis', sans-serif;
+    font-size: 130%
+}
+.table td {
+    padding: .2rem;
+    font-family: 'Dosis', sans-serif;
+    font-size: 100%;
+    border-bottom: 1px solid #b8b5aa;
+    color: #85837b;
+}
+.body{
+    padding: 10%;
+    background-color: #f5f6f2;
+}
+
+.navbar-brand{
+    font-family: 'Dosis', sans-serif;
+    font-size: 150%
+}
+
+.btn-secondary{
+    background-color: #bdb6aa;
+    border-color:  #bdb6aa;
+    color: #85837b;
+    margin-bottom: 2rem;
+}
+
+.container{
+    padding: 0;
+}
+
+@media(max-width: 600px){
+    .body{
+        padding: 30% 10% 10% 10%;
+    }
+    .image{
+        height: 100%;
+        width: 100%;
+    }
+}
